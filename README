@@ -1,0 +1,20 @@
+Kernel Source From Qualcomm ICS
+
+Specific Defconfig from romracer
+
+Modified C++ file from romracer
+
+
+Compilation Recommendations
+
+1) $ make mrproper
+
+2) $ make ARCH=arm CROSS_COMPILE=../toolchains/arm-2010q1/bin/arm-none-eabi- msm8660_celox_usa_att_defconfig
+
+3) $ make ARCH=arm CROSS_COMPILE=../toolchains/arm-2010q1/bin/arm-none-eabi-
+
+
+Cheers,
+jomeister15
+
+
